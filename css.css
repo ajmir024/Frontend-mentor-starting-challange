@@ -8,7 +8,7 @@ body{
     display:flex; 
     flex-direction:column;
     width:300px;
-    height:490px;
+    height:480px;
     background-color:hsl(0,0%,100%);
     justify-content:center;
     position:absolute;
@@ -26,7 +26,7 @@ body{
     height:270px;
     align-self:center;
     justify-self:center;
-    padding-top:0;
+    padding-top:20;
     margin-top:0;
     border-radius:10px;   
 }
@@ -39,10 +39,15 @@ body{
 
 .text p{
     font-weight:400;
+    font-size:14px;
+    color:hsl(216, 15%, 48%);
 }
 
 .text h3{
     font-weight:700;
+    margin-top:0;
+    font-size:20px;
+    color:hsl(218, 44%, 22%);
 }
 
 @media(min-width:375){
